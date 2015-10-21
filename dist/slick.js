@@ -102,7 +102,7 @@ angular.module('slick', []).directive('slick', [
               pauseOnHover: scope.pauseOnHover !== 'false',
               responsive: scope.responsive || void 0,
               rtl: scope.rtl === 'true',
-              slide: scope.slide || 'div',
+              slide: scope.slide || '',
               slidesToShow: scope.slidesToShow != null ? parseInt(scope.slidesToShow, 10) : 1,
               slidesToScroll: scope.slidesToScroll != null ? parseInt(scope.slidesToScroll, 10) : 1,
               speed: scope.speed != null ? parseInt(scope.speed, 10) : 300,
